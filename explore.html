@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <met charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css" rel="stylesheet">
+    <title>Adventures to Come</title>
+</head>
+<style>
+    h2 {
+        text-align: center;
+    }
+    p {
+        padding: 100px;
+        font-size: 25px;
+    }
+    .photo {
+        transform: scaleX(-1);
+    }
+</style>
+<body>
+<header>
+<img src="Logo.png" alt="David's Logo">
+<h1>Explore</h1>
+</header>
+<nav>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="explore.html">Explore</a></li>
+        <li><a href="about.html">About</a></li>
+    </ul>
+</nav>
+<div class="photo">
+    <img src="image12.jpeg" alt="beach view at vacation">
+    <div class="text-overlay">
+        Vacation Spots
+    </div>
+</div>
+<article>
+    <p>Welcome to our Explore page, where we present three captivating and sustainable travel destinations that you and your significat other will undoubtedly fall in love with! These eco-friendly locations combine the beauty of nature, cultural richness, and responsible tourism practices to offer an unforgettable experience. From the pristine beaches of Cancun, the bustling metropolis of Tokyo, to the vibrant lights of Las Vegas, each destination has something unique to offer, making them perfect choices for your next adventure. Get ready to embark on a journey that not only brings joy and relaxation but also contributes positively to the environment and local communities.</p>
+    <h2>Cancun: Paradise of Ecological Diversity</h2>
+<p>Nestled along the stunning Caribbean coast, Cancun is a tropical paradise with crystal-clear waters and powdery white beaches that stretch as far as the eye can see. But Cancun is not just about sunbathing and cocktails; it's also a hub for eco-tourism and environmental conservation. Explore the breathtaking Mesoamerican Barrier Reef, the second-largest reef system in the world, where you can dive and snorkel amidst vibrant coral and marine life. Experience the thrill of swimming with gentle giants in the nearby Whale Shark Reserve, where these magnificent creatures pass through on their annual migratory route. Moreover, Cancun boasts lush nature reserves and eco-parks, offering a chance to immerse yourself in the region's rich biodiversity and learn about the importance of conservation efforts.</p>
+    <div class="slideshow-container">
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 3</div>
+          <img src="image3.jpeg" style="width:50%">
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 3</div>
+          <img src="image4.jpeg" style="width:50%">
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 3</div>
+          <img src="image5.jpeg" style="width:50%">
+        </div>
+    </div>
+    <br>
+    <div style="text-align:center">
+        <span class="dot"></span> 
+        <span class="dot"></span> 
+        <span class="dot"></span> 
+    </div>
+
+    <br>
+    
+    <h2>Tokyo: The Intersection of Tradition and Innovation</h2>
+    <p>Tokyo, the bustling capital of Japan, is a captivating blend of ancient traditions and futuristic innovations. Known for its impeccable public transport, Tokyo is a city that embraces sustainable practices in every aspect of urban living. Stroll through the historic neighborhoods of Asakusa and Ueno to witness timeless temples and shrines that have stood for centuries, surrounded by serene gardens and parks. Delight your taste buds with the freshest sushi and savor the finest green tea in traditional teahouses. Explore the city's modern side in Shibuya and Shinjuku, where innovative architecture and high-tech experiences await. Tokyo is a prime example of how a metropolis can be both environmentally conscious and culturally rich.</p>
+    <div class="slideshow-container">
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 3</div>
+          <img src="image6.jpeg" style="width:50%">
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 3</div>
+          <img src="image7.jpeg" style="width:50%">
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 3</div>
+          <img src="image8.jpeg" style="width:50%">
+        </div>
+    </div>
+    <br>
+    <div style="text-align:center">
+        <span class="dot"></span> 
+        <span class="dot"></span> 
+        <span class="dot"></span> 
+    </div>
+
+    <br>
+
+    <h2>Las Vegas: Sustainable Oasis in the Desert</h2>
+    <p>Contrary to its reputation for glitz and glamour, Las Vegas has taken significant strides in adopting sustainable practices and promoting responsible tourism. Surrounded by the vast Mojave Desert, Las Vegas offers a chance to connect with nature while enjoying the city's entertainment offerings. Take a break from the iconic Strip to explore the nearby Red Rock Canyon, where stunning rock formations and desert landscapes await. Engage in eco-friendly outdoor activities like hiking and rock climbing, appreciating the unique beauty of the desert ecosystem. Additionally, many of Las Vegas's resorts have adopted green initiatives, from energy-efficient buildings to water conservation efforts, ensuring that your stay is as sustainable as it is enjoyable.</p>
+    <div class="slideshow-container">
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 3</div>
+          <img src="image9.jpeg" style="width:50%">
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 3</div>
+          <img src="image10.jpeg" style="width:50%">
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 3</div>
+          <img src="image11.jpeg" style="width:50%">
+        </div>
+    </div>
+    <br>
+    <div style="text-align:center">
+        <span class="dot"></span> 
+        <span class="dot"></span> 
+        <span class="dot"></span> 
+    </div>
+    <p style="padding: 0;">As you plan your next vacation, consider these three incredible destinations that embrace sustainable tourism and provide unforgettable experiences for you and Hailey. Each location presents an opportunity to not only create lasting memories but also contribute positively to the environment and local communities. Embrace the essence of responsible travel and embark on a journey of exploration, cultural enrichment, and environmental preservation. Happy travels!
+</article>
+
+<footer>
+    <p>&copy; 2023 David's Website. All rights reserved.</p>
+</footer>
+
+</body>
+
+<script>
+let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+
+</script>
+</html>

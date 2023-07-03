@@ -1,0 +1,163 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  header {
+    background-color: #0548A7;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+  }
+  header img {
+    height: auto;
+    width: 85px;
+  }
+  header h1 {
+    display: inline-block;
+  }
+  a:hover {
+   background-color: black;
+  }
+  nav {
+    background-color: #D67A51;
+    color: #fff;
+    padding: 10px;
+  }
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  main {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 20px;
+    padding: 20px;
+  }
+  .photo {
+    background-color: #0548A7;
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .text-overlay {
+    position: absolute;
+    top: 80%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    transform: scaleX(-1);
+  }
+  .photo img {
+    width: 80%; 
+    height: auto; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  article {
+    background-color: #05AFDA;
+    padding: 10px;
+    font-size: 20px;
+  }
+  article p {
+    color: white;
+    text-shadow: 2px 2px 4px #333;
+  }
+  article img {
+    width: 75%;
+    height: auto;
+  }
+  section {
+    margin: 40px;
+  }
+  aside {
+    background-color: #F1DEB2;
+    padding: 10px;
+  }
+  footer {
+    background-color: #D67A51;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  .mySlides {display: none;}
+img {vertical-align: middle;}
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  transform: translateX(25%);
+}
+
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.active {
+  background-color: #717171;
+}
+.fade {
+  animation-name: fade;
+  animation-duration: 2s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+  @media screen and (max-width: 600px) {
+    main {
+      grid-template-columns: 1fr;
+    }
+    .text-overlay {
+      top: 80%;
+      left: 60%;
+      font-size: 25px;
+    }
+  }
+  @media screen and (min-width: 601px) {
+    .photo {
+    background-color: black;
+    width: 100%;
+    height: 350px;
+  }
+  .photo img {
+    width: 80%; 
+    height: 350px; 
+  }
+  }
+  @media screen and (min-width: 1000px) {
+    .text-overlay {
+      top: 80%;
+      left: 63%;
+      font-size: 40px;
+    }
+  }
